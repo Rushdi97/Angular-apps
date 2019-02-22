@@ -1,3 +1,21 @@
 .nav{
   background-color: black;
+  height:50px;
+}
+.card1{
+  margin: 50px;
+  height: 100px;
+  width:500px;
+  float:right;
+}
+
+.card{
+
+  margin: 50px;
+  height: 100px;
+  width:500px;
+  float:left;
+}
+.nav-link{
+  color: white;
 }
