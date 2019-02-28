@@ -1,8 +1,7 @@
-html{
-  background-image: url("assets/images/img_background.jpg") ;
 
-  height:100px;
-}
 .nav{
   background-color: black;
+}
+body{
+  background-image: url('assets/images/img_background.jpg');
 }
