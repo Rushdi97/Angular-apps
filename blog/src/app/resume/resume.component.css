@@ -1,29 +1,35 @@
 .resume_back{
-  /*background-image: url('/assets/images/img_background.jpg');*/
   position:fixed;
-   padding:0;
-   margin:0;
-
-   top:0;
-   left:0;
-
-   background: linear-gradient(rgba(0,0,0,0.10),rgba(0,0,0,0.10)) , url('/assets/images/img_background.jpg');
-
-   width: 100%;
-   height: 100%;
-   color: black;
-   z-index: 0;
-
+  padding:0;
+  margin:0;
+  background-repeat: no-repeat;
+  top:0;
+  left:0;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  overflow:auto;
+  background: linear-gradient(rgba(0,0,0,0.10),rgba(0,0,0,0.10)) , url('/assets/images/img_resume.jpg');
 
 }
+.resume{
+  height:1200px;
+  margin: 300px;
+  margin-top:50px;
+  width:1000px;
+  border: 1000px;
+  border-color: black;
+  background-image:url('/assets/images/resume.jpg');
+  border-style: solid;
+  border-color: black;
+  border-width: medium;
 
-.text{
-  opacity: 1;
+}
+h1{
+  background-color: black;
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+  height: 60px;
+  text-align: center;
   color: white;
-  float:right;
-  background-color: blue;
-  margin:100px;
-  position:relative;
-  z-index: 1;
-
+  font-family: cursive;
 }
