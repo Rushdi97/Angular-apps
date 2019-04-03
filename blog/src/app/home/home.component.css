@@ -11,16 +11,24 @@ background-size: cover;
 width: 100%;
 height: 100%;
 overflow:scroll;
+
+}
+.alert{
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
 }
 
+
+/*
 .container {
   position: absolute;
   width: 35%;
-  margin: 50px;
-  margin-right:550px;
-  margin-left:550px;
-  }
+  margin: 50px auto;
 
+
+  }
+*/
 .fa-linkedin{
   color: lightblue;
   margin : 25px;
@@ -30,11 +38,11 @@ overflow:scroll;
   margin: 25px;
 }
 
-.image {
+/*.image {
   border-radius: 50%;
   margin-left:100px;
   width:50%;
-}
+}*/
 .card{
   background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4));
   color: white;
